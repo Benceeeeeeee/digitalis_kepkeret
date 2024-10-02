@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+</head>
+
+<body id="body">
+  <div class="container">
+
+    <form>
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <label for="kepUrl">URL: </label>
+          <input type="url" id="kepUrl">
+        </div>
+
+        <div class="col-md-6 mb-3">
+          <label for="kepSzelesseg">Kép széllesége: </label>
+          <input type="number" placeholder="px" id="kepSzelesseg">
+        </div>
+
+        <div class="col-md-6 mb-3">
+          <label for="kepVastagsag">Kép vastagsága: </label>
+          <input type="number" placeholder="px" id="kepVastagsag">
+        </div>
+
+        <div class="col-md-6 mb-3">
+          <label for="kepSzin">Kép színe: </label>
+          <input type="color" id="kepSzin">
+        </div>
+      </div>
+    </form>
+
+    <button class="btn btn-primary" id="gomb">Mehet</button><br>
+
+    <img src="" alt="kep" id="kep">
+
+    <div>
+      <footer style="bottom:0 ; position: relative;">
+        <p style="display: inline;">Dudás Bence 2.14/S</p>
+        <button id="sotet" class="btn btn-primary">Szín váltás</button>
+      </footer>
+    </div>
+
+  </div>
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
