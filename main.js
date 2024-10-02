@@ -17,6 +17,6 @@ document.addEventListener("DOMContentLoaded", () => {
   })
   
   document.getElementById("sotet").addEventListener("click", () => {
-    document.getElementById("body").classList.toggle("darkMode");
+    document.body.classList.toggle("darkMode");
   })
 })
